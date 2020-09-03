@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af15a069-83d8-40c0-a389-d60cd14ca184" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/A01/ouput.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/A01/ouput.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/A01/program.py" beforeDir="false" afterPath="$PROJECT_DIR$/A01/program.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A02/transformations.py" beforeDir="false" afterPath="$PROJECT_DIR$/A02/transformations.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,7 +22,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/A02/transformations.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/A01/program.py" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
@@ -45,7 +46,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="transformations" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+    <configuration name="program" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Graphics-Programming" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -53,11 +54,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="$USER_HOME$/anaconda3/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/A02" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/A01" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/A02/transformations.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/A01/program.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -79,29 +80,29 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="418" y="217" width="1084" height="732" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599061828523">
+    <state x="418" y="217" width="1084" height="756" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599099009619">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="418" y="217" width="1084" height="732" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1599061828523" />
-    <state x="743" y="317" width="424" height="478" key="FileChooserDialogImpl" timestamp="1599061827141">
+    <state x="418" y="217" width="1084" height="756" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1599099009619" />
+    <state x="743" y="317" width="424" height="478" key="FileChooserDialogImpl" timestamp="1599099008040">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="743" y="317" width="424" height="478" key="FileChooserDialogImpl/0.40.1920.1040@0.40.1920.1040" timestamp="1599061827141" />
-    <state width="1899" height="277" key="GridCell.Tab.0.bottom" timestamp="1599061740607">
+    <state x="743" y="317" width="424" height="478" key="FileChooserDialogImpl/0.40.1920.1040@0.40.1920.1040" timestamp="1599099008040" />
+    <state width="938" height="277" key="GridCell.Tab.0.bottom" timestamp="1599099816641">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state width="1899" height="277" key="GridCell.Tab.0.bottom/0.40.1920.1040@0.40.1920.1040" timestamp="1599061740607" />
-    <state width="1899" height="277" key="GridCell.Tab.0.center" timestamp="1599061740606">
+    <state width="938" height="277" key="GridCell.Tab.0.bottom/0.40.1920.1040@0.40.1920.1040" timestamp="1599099816641" />
+    <state width="938" height="277" key="GridCell.Tab.0.center" timestamp="1599099816641">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state width="1899" height="277" key="GridCell.Tab.0.center/0.40.1920.1040@0.40.1920.1040" timestamp="1599061740606" />
-    <state width="1899" height="277" key="GridCell.Tab.0.left" timestamp="1599061740606">
+    <state width="938" height="277" key="GridCell.Tab.0.center/0.40.1920.1040@0.40.1920.1040" timestamp="1599099816641" />
+    <state width="938" height="277" key="GridCell.Tab.0.left" timestamp="1599099816641">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state width="1899" height="277" key="GridCell.Tab.0.left/0.40.1920.1040@0.40.1920.1040" timestamp="1599061740606" />
-    <state width="1899" height="277" key="GridCell.Tab.0.right" timestamp="1599061740606">
+    <state width="938" height="277" key="GridCell.Tab.0.left/0.40.1920.1040@0.40.1920.1040" timestamp="1599099816641" />
+    <state width="938" height="277" key="GridCell.Tab.0.right" timestamp="1599099816641">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state width="1899" height="277" key="GridCell.Tab.0.right/0.40.1920.1040@0.40.1920.1040" timestamp="1599061740606" />
+    <state width="938" height="277" key="GridCell.Tab.0.right/0.40.1920.1040@0.40.1920.1040" timestamp="1599099816641" />
   </component>
 </project>

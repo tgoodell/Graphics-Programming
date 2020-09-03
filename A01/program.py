@@ -13,17 +13,11 @@ if np.min(img)<0 or np.max(img)>255:
     img=normalize(img)
     print("Had to normalize image")
 
-def greyscale(img):
-    grey = img[:, :, 1]
-    grey[grey < 100] = 0
-    grey[grey > 100] = 255
-    return grey
-
-# def contrast(img):
-    # (V-128)*.5+128
-    # contra = img[:, :, 0]
-    # contra=(contra-128)*.5+128
-    # return contra
+def blackWhite(img, threshold):
+    bw = img[:, :, 1]
+    bw[bw < threshold] = 0
+    bw[bw > threshold] = 255
+    return bw
 
 def contrast(img, factor):
     contra = img[:, :, :]
@@ -52,12 +46,20 @@ def tint(img, color, percent):
     img[:, :, 2] = r
     return img
 
-def desaturate(img):
-    v=img[:,:,1]
-    grey=v[:,:,None]
-    print(grey.shape)
+def desaturate(img ,percent):
+    g = img[:, :, 1]
+    b = img[:, :, 0]
+    r = img[:, :, 2]
+    g = g * percent
+    b = b * percent
+    r = r * percent
+
+    img[:, :, 1] = b
+    img[:, :, 0] = g
+    img[:, :, 2] = r
+    return img
 
 img=cv2.imread("input/input-selfie.jpg")
-img=tint(img, "green", .7)
+img=desaturate(img, 0)
 
 cv2.imwrite("ouput.jpg",img)

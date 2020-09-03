@@ -28,3 +28,12 @@ Yp=np.uint16(Yp)
 out[Y[goodTransformationMap],X[goodTransformationMap]]=img[Yp[goodTransformationMap],Xp[goodTransformationMap]]
 
 cv2.imwrite("output.png",out)
+
+# Matrixes
+img=cv2.imread("image2.png",0)
+
+h,w=img.shape[:2]
+M=np.float64([[1,0,10],[0,1,0],[0,0,1]])
+dst = cv2.warpPerspective(img,M,(w,h))
+
+cv2.imwrite("output2.png",dst)
