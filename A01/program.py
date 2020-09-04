@@ -4,14 +4,18 @@ import cv2
 img=cv2.imread("input/image1.png")
 
 def normalize(img):
-    img=img-np.min(img)
-    img=img/np.max(img)
-    img*=255.99
-    return np.uint8(img)
+    nimg=1*img
+    nimg=nimg-np.min(nimg)
+    nimg=nimg/np.max(nimg)
+    nimg*=255.99
+    return np.uint8(nimg)
 
-if np.min(img)<0 or np.max(img)>255:
-    img=normalize(img)
-    print("Had to normalize image")
+def show(img):
+    simg=1*img
+    if np.min(simg)<0 or np.max(simg)>255:
+        simg=normalize(simg)
+        print("Had to normalize image")
+    return simg
 
 def greyscale(img):
     b = img[:, :, 0]*0.1
@@ -21,23 +25,23 @@ def greyscale(img):
     return img
 
 def blackWhite(img, threshold):
-    bw = 1*img[:, :, 1]
+    bw = 1*greyscale(img)
     bw[np.uint8(bw) < threshold] = 0
     bw[np.uint8(bw) > threshold] = 255
     return bw
 
 def desaturate(img ,percent):
-    # Set contra to a double and img for overflow reasons
-    desat = np.double(img[:, :, :])
+    desat = 1*np.double(img[:, :, :])
+    grey = greyscale(img)
 
     # Actual math behind desat
-    desat[:, :, :] = 1.0 * (desat[:, :, :] - 128) * percent + 128
-
+    desat[:, :, :] = (desat[:, :, :] *(1 - percent)) + (grey[:,:,None] * percent)
+    #grey*percent + img*(1-percent)
     # Overflow Check
     desat[desat > 255] = 255
     desat[desat < 0] = 0
 
-    return np.uint8(desat)
+    return desat
 
 def contrast(img, factor):
     cimg = 1*img
