@@ -41,25 +41,35 @@ def tint(img, color, percent):
     if color=="red":
         r = (1 - percent) * r + percent * tint
 
-    img[:, :, 1] = b
-    img[:, :, 0] = g
+    img[:, :, 0] = b
+    img[:, :, 1] = g
     img[:, :, 2] = r
     return img
 
 def desaturate(img ,percent):
-    g = img[:, :, 1]
     b = img[:, :, 0]
+    g = img[:, :, 1]
     r = img[:, :, 2]
     g = g * percent
     b = b * percent
     r = r * percent
 
-    img[:, :, 1] = b
-    img[:, :, 0] = g
+    img[:, :, 0] = b
+    img[:, :, 1] = g
+    img[:, :, 2] = r
+    return img
+
+def greyscale(img):
+    b = img[:, :, 0]*0.9
+    g = img[:, :, 1]*0.3
+    r = img[:, :, 2]*0.8
+
+    img[:, :, 0] = b
+    img[:, :, 1] = g
     img[:, :, 2] = r
     return img
 
 img=cv2.imread("input/input-selfie.jpg")
-img=desaturate(img, 0)
+img=greyscale(img)
 
 cv2.imwrite("ouput.jpg",img)
