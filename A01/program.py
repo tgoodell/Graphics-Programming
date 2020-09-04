@@ -73,7 +73,7 @@ def tint(img, color, percent):
 
     # Applying tints based on color input & percent.
     if color=="blue":
-        g = (1 - percent) * b + percent * tint
+        b = (1 - percent) * b + percent * tint
 
     if color=="green":
         g = (1 - percent) * g + percent * tint
