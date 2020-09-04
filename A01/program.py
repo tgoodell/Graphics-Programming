@@ -27,9 +27,10 @@ def blackWhite(img, threshold):
     return bw
 
 def desaturate(img ,percent):
-    b = img[:, :, 0]
-    g = img[:, :, 1]
-    r = img[:, :, 2]
+    dimg = 1*img
+    b = dimg[:, :, 0]
+    g = dimg[:, :, 1]
+    r = dimg[:, :, 2]
 
     b = b * percent
     b[b > 255] = 255
@@ -43,11 +44,11 @@ def desaturate(img ,percent):
     r[r > 255] = 255
     r[r < 0] = 0
 
-    img[:, :, 0] = b
-    img[:, :, 1] = g
-    img[:, :, 2] = r
+    dimg[:, :, 0] = b
+    dimg[:, :, 1] = g
+    dimg[:, :, 2] = r
 
-    return img
+    return dimg
 
 def contrast(img, factor):
     # Set contra to a double and img for overflow reasons
@@ -103,6 +104,12 @@ for i in range(1, 9):
 
 pic_2_2a=blackWhite(img, -1)
 cv2.imwrite("output/pic_2_2_0.png", pic_2_2a)
+
+# 2.3 Desaturation
+# Apply this filter to image1 using percent values from 0 to 1 in .1 increments
+for i in range(0,10):
+    desat=desaturate(img,0+0.1*i)
+    cv2.imwrite("output/pic_2_3_" + str(i) + ".png",desat)
 
 # 2.4 - Contrast
 for i in range(0, 9):
