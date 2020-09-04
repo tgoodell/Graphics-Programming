@@ -1,7 +1,7 @@
 import numpy as np
 import cv2
 
-img=cv2.imread("input/input.jpg")
+img=cv2.imread("input/image1.png")
 
 def normalize(img):
     img=img-np.min(img) #the smallest value is 0
@@ -30,13 +30,11 @@ def desaturate(img ,percent):
     b = img[:, :, 0]
     g = img[:, :, 1]
     r = img[:, :, 2]
-    g = g * percent
     b = b * percent
+    g = g * percent
     r = r * percent
 
-    img[:, :, 0] = b
-    img[:, :, 1] = g
-    img[:, :, 2] = r
+    img=b+g+r
     return img
 
 def contrast(img, factor):
@@ -64,7 +62,6 @@ def tint(img, color, percent):
     img[:, :, 2] = r
     return img
 
-img=cv2.imread("input/input-selfie.jpg")
-img=greyscale(img)
+pic_2_1=greyscale(img)
 
-cv2.imwrite("ouput.jpg",img)
+cv2.imwrite("output/pic_2_1.png",pic_2_1)
