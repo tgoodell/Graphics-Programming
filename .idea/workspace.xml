@@ -3,18 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="af15a069-83d8-40c0-a389-d60cd14ca184" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A01/output/pic_2_4_0.png" beforeDir="false" afterPath="$PROJECT_DIR$/A01/output/pic_2_4_0.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A01/output/pic_2_4_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/A01/output/pic_2_4_1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A01/output/pic_2_4_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/A01/output/pic_2_4_2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A01/output/pic_2_4_3.png" beforeDir="false" afterPath="$PROJECT_DIR$/A01/output/pic_2_4_3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A01/output/pic_2_4_4.png" beforeDir="false" afterPath="$PROJECT_DIR$/A01/output/pic_2_4_4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A01/output/pic_2_4_5.png" beforeDir="false" afterPath="$PROJECT_DIR$/A01/output/pic_2_4_5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A01/output/pic_2_4_6.png" beforeDir="false" afterPath="$PROJECT_DIR$/A01/output/pic_2_4_6.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A01/output/pic_2_4_7.png" beforeDir="false" afterPath="$PROJECT_DIR$/A01/output/pic_2_4_7.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A01/output/pic_2_4_8.png" beforeDir="false" afterPath="$PROJECT_DIR$/A01/output/pic_2_4_8.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A01/output/pic_2_5_0.png" beforeDir="false" afterPath="$PROJECT_DIR$/A01/output/pic_2_5_0.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A01/output/pic_2_5_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/A01/output/pic_2_5_1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A01/output/pic_2_5_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/A01/output/pic_2_5_2.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/A01/program.py" beforeDir="false" afterPath="$PROJECT_DIR$/A01/program.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -98,22 +86,22 @@
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="743" y="317" width="424" height="478" key="FileChooserDialogImpl/0.40.1920.1040@0.40.1920.1040" timestamp="1599099008040" />
-    <state width="1899" height="277" key="GridCell.Tab.0.bottom" timestamp="1599196779669">
+    <state width="1899" height="277" key="GridCell.Tab.0.bottom" timestamp="1599220438555">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state width="1899" height="277" key="GridCell.Tab.0.bottom/0.40.1920.1040@0.40.1920.1040" timestamp="1599196779669" />
-    <state width="1899" height="277" key="GridCell.Tab.0.center" timestamp="1599196779668">
+    <state width="1899" height="277" key="GridCell.Tab.0.bottom/0.40.1920.1040@0.40.1920.1040" timestamp="1599220438555" />
+    <state width="1899" height="277" key="GridCell.Tab.0.center" timestamp="1599220438554">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state width="1899" height="277" key="GridCell.Tab.0.center/0.40.1920.1040@0.40.1920.1040" timestamp="1599196779668" />
-    <state width="1899" height="277" key="GridCell.Tab.0.left" timestamp="1599196779668">
+    <state width="1899" height="277" key="GridCell.Tab.0.center/0.40.1920.1040@0.40.1920.1040" timestamp="1599220438554" />
+    <state width="1899" height="277" key="GridCell.Tab.0.left" timestamp="1599220438554">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state width="1899" height="277" key="GridCell.Tab.0.left/0.40.1920.1040@0.40.1920.1040" timestamp="1599196779668" />
-    <state width="1899" height="277" key="GridCell.Tab.0.right" timestamp="1599196779669">
+    <state width="1899" height="277" key="GridCell.Tab.0.left/0.40.1920.1040@0.40.1920.1040" timestamp="1599220438554" />
+    <state width="1899" height="277" key="GridCell.Tab.0.right" timestamp="1599220438555">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state width="1899" height="277" key="GridCell.Tab.0.right/0.40.1920.1040@0.40.1920.1040" timestamp="1599196779669" />
+    <state width="1899" height="277" key="GridCell.Tab.0.right/0.40.1920.1040@0.40.1920.1040" timestamp="1599220438555" />
     <state width="1899" height="342" key="GridCell.Tab.1.bottom" timestamp="1599191120875">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>

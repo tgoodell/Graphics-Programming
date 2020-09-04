@@ -27,20 +27,33 @@ def blackWhite(img, threshold):
     return bw
 
 def desaturate(img ,percent):
+    # Set contra to a double and img for overflow reasons
+    contra = np.double(img[:, :, :])
+
+    # Actual math behind contrast
+    contra[:, :, :] = 1.0 * (contra[:, :, :] - 128) * percent + 128
+
+    # Overflow Check
+    contra[contra > 255] = 255
+    contra[contra < 0] = 0
+
+    return np.uint8(contra)
+
+def contrast(img, factor):
     dimg = 1*img
     b = dimg[:, :, 0]
     g = dimg[:, :, 1]
     r = dimg[:, :, 2]
 
-    b = b * percent
+    b = b * factor
     b[b > 255] = 255
     b[b < 0] = 0
 
-    g = g * percent
+    g = g * factor
     g[g > 255] = 255
     g[g < 0] = 0
 
-    r = r * percent
+    r = r * factor
     r[r > 255] = 255
     r[r < 0] = 0
 
@@ -49,19 +62,6 @@ def desaturate(img ,percent):
     dimg[:, :, 2] = r
 
     return dimg
-
-def contrast(img, factor):
-    # Set contra to a double and img for overflow reasons
-    contra = np.double(img[:,:,:])
-
-    # Actual math behind contrast
-    contra[:,:,:] = 1.0*(contra[:,:,:]-128)*factor+128
-
-    # Overflow Check
-    contra[contra>255] = 255
-    contra[contra<0] = 0
-
-    return np.uint8(contra)
 
 def tint(img, color, percent):
     timg=img[:,:,:]
