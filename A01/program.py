@@ -107,7 +107,7 @@ cv2.imwrite("output/pic_2_2_0.png", pic_2_2a)
 
 # 2.3 Desaturation
 # Apply this filter to image1 using percent values from 0 to 1 in .1 increments
-for i in range(0,10):
+for i in range(0,11):
     desat=desaturate(img,0+0.1*i)
     cv2.imwrite("output/pic_2_3_" + str(i) + ".png",desat)
 
