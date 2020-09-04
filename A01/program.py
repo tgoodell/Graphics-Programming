@@ -112,7 +112,7 @@ for i in range(0,10):
     cv2.imwrite("output/pic_2_3_" + str(i) + ".png",desat)
 
 # 2.4 - Contrast
-for i in range(0, 9):
+for i in range(0, 11):
     contImg=contrast(img,.5+i*.1)
     cv2.imwrite("output/pic_2_4_" + str(i) + ".png", contImg)
 
