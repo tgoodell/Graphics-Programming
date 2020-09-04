@@ -40,10 +40,10 @@ def desaturate(img ,percent):
     return np.uint8(contra)
 
 def contrast(img, factor):
-    dimg = 1*img
-    b = dimg[:, :, 0]
-    g = dimg[:, :, 1]
-    r = dimg[:, :, 2]
+    cimg = 1*img
+    b = cimg[:, :, 0]
+    g = cimg[:, :, 1]
+    r = cimg[:, :, 2]
 
     b = b * factor
     b[b > 255] = 255
@@ -57,11 +57,11 @@ def contrast(img, factor):
     r[r > 255] = 255
     r[r < 0] = 0
 
-    dimg[:, :, 0] = b
-    dimg[:, :, 1] = g
-    dimg[:, :, 2] = r
+    cimg[:, :, 0] = b
+    cimg[:, :, 1] = g
+    cimg[:, :, 2] = r
 
-    return dimg
+    return cimg
 
 def tint(img, color, percent):
     timg=img[:,:,:]
