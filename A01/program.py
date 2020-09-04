@@ -96,7 +96,7 @@ cv2.imwrite("output/pic_2_1.png",pic_2_1)
 pic_2_2=blackWhite(img, 128)
 cv2.imwrite("output/pic_2_2.png",pic_2_2)
 
-# 2.2b Apply blackWhite filter using threshold values from -1 to 255 in increments of 32. NEED TO FIX
+# 2.2b Apply blackWhite filter using threshold values from -1 to 255 in increments of 32.
 for i in range(1, 9):
     pic_2_2b=blackWhite(img, (32*i)-1)
     cv2.imwrite("output/pic_2_2_" + str(i) + ".png", pic_2_2b)
