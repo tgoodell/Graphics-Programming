@@ -32,10 +32,10 @@ def blackWhite(img, threshold):
 
 def desaturate(img ,percent):
     desat = 1*np.double(img[:, :, :])
-    grey = greyscale(img)
+    greyImg = greyscale(img)
 
     # Actual math behind desat
-    desat[:, :, :] = (desat[:, :, :] *(1 - percent)) + (grey[:,:,None] * percent)
+    desat[:, :, :] = (desat[:, :, :] *(1 - percent)) + (greyImg[:,:,None] * percent)
     #grey*percent + img*(1-percent)
     # Overflow Check
     desat[desat > 255] = 255
@@ -49,15 +49,15 @@ def contrast(img, factor):
     g = cimg[:, :, 1]
     r = cimg[:, :, 2]
 
-    b = b * factor
+    b = (b-128.0) * factor+128
     b[b > 255] = 255
     b[b < 0] = 0
 
-    g = g * factor
+    g = (g-128.0) * factor+128
     g[g > 255] = 255
     g[g < 0] = 0
 
-    r = r * factor
+    r = (r-128.0) * factor+128
     r[r > 255] = 255
     r[r < 0] = 0
 
@@ -79,6 +79,8 @@ def tint(img, color, percent):
     # Applying tints based on color input & percent.
     if color=="blue":
         b = (1 - percent) * b + percent * tint
+        g = (1 - percent) * b + percent * tint
+        r = (1 - percent) * b + percent * tint
 
     if color=="green":
         g = (1 - percent) * g + percent * tint
