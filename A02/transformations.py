@@ -32,8 +32,14 @@ cv2.imwrite("output.png",out)
 # Matrixes
 img=cv2.imread("image2.png",0)
 
+M=T2@R@T1
+print(M)
+points[[0,0],[w-1,0], [w,h], [0,h]]
+
 h,w=img.shape[:2]
-M=np.float64([[1,0,10],[0,1,0],[0,0,1]])
 dst = cv2.warpPerspective(img,M,(w,h))
+
+M=np.float64([[1,0,10],[0,1,0],[0,0,1]])
+print(M@np.float64([[0],[0],[1]]))
 
 cv2.imwrite("output2.png",dst)
