@@ -36,7 +36,6 @@ def desaturate(img ,percent):
 
     # Actual math behind desat
     desat[:, :, :] = (desat[:, :, :] *(1 - percent)) + (greyImg[:,:,None] * percent)
-    #grey*percent + img*(1-percent)
     # Overflow Check
     desat[desat > 255] = 255
     desat[desat < 0] = 0
@@ -69,7 +68,7 @@ def contrast(img, factor):
 
 def tint(img, color, percent):
     timg=img[:,:,:]
-    tint=127
+    tint=255
 
     # Assiging bgr values
     b=timg[:, :, 0]
@@ -78,15 +77,13 @@ def tint(img, color, percent):
 
     # Applying tints based on color input & percent.
     if color=="blue":
-        b = (1 - percent) * b + percent * tint
-        g = (1 - percent) * b + percent * tint
-        r = (1 - percent) * b + percent * tint
+        b = 1.0*b+(255-b)*percent
 
     if color=="green":
-        g = (1 - percent) * g + percent * tint
+        g = 1.0 * g + (255 - g) * percent
 
     if color=="red":
-        r = (1 - percent) * r + percent * tint
+        r = 1.0 * r + (255 - r) * percent
 
     # Reassigning gbr values
     timg[:, :, 0] = b
@@ -129,9 +126,9 @@ blueTint=tint(img,"blue",0.5)
 cv2.imwrite("output/pic_2_5_0.png", blueTint)
 
 # Tint image1 70% green
-greenTint=tint(img,"green",0.7)
+greenTint=tint(img,"green",0.2)
 cv2.imwrite("output/pic_2_5_1.png", greenTint)
 
 # Tint image1 90% red
-redTint=tint(img,"red",0.9)
+redTint=tint(img,"red",0.4)
 cv2.imwrite("output/pic_2_5_2.png", redTint)
