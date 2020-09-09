@@ -129,6 +129,6 @@ cv2.imwrite("output/pic_2_5_0.png", blueTint)
 greenTint=tint(img,"green",0.2)
 cv2.imwrite("output/pic_2_5_1.png", greenTint)
 
-# Tint image1 90% red
+# Tint image1 40% red
 redTint=tint(img,"red",0.4)
 cv2.imwrite("output/pic_2_5_2.png", redTint)
