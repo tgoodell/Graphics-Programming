@@ -8,7 +8,7 @@ def show(img,wait=0,destroy=True):
     if destroy:
         cv2.destroyAllWindows()
 
-img=cv2.imread("input/squirrel.jif")
+img=cv2.imread("input/image1.png")
 cube=cv2.imread("input/cube.jpg")
 h,w=img.shape[:2]
 angle=math.pi*30/180
