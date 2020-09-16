@@ -16,7 +16,7 @@ def getPascalRow(x):
     right=r+[0]
     return [i+j for i,j in zip(left,right)]
 
-img=cv2.imread("image1.png")
+img=cv2.imread("hot-springs.png")
 
 # Darken:  kernel=np.float64([[0.9]])
 kernel=cv2.getStructuringElement(cv2.MORPH_ELLIPSE,(75,75))
