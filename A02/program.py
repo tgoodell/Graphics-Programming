@@ -28,7 +28,7 @@ angle=math.pi*30/180
 flipy=np.float64([[-1,0,w1],[0,1,0],[0,0,1]])
 rotate30=np.float64([[-np.cos(angle),np.sin(angle),0],[np.sin(angle),np.cos(angle),0],[0,0,1]])
 left=np.float64([[1,0,300],[0,1,0],[0,0,1]])
-final=flipy@rotate30@flipy@left
+final=flipy@rotate30@flipy@left@flipy
 final = cv2.warpPerspective(img1,final,(w1,h1))
 cv2.imwrite("output/pic_1_2.png",final)
 show(final)
@@ -46,8 +46,8 @@ newWidth=np.uint64(side2+side3)
 
 flipy=np.float64([[-1,0,w1],[0,1,0],[0,0,1]])
 rotate30=np.float64([[-np.cos(angle),np.sin(angle),0],[np.sin(angle),np.cos(angle),0],[0,0,1]])
-modify=np.float64([[1,0,250],[0,1,0],[0,0,1]])
-final=flipy@modify@rotate30@flipy
+modify=np.float64([[1,0,h1//4],[0,1,0],[0,0,1]])
+final=flipy@modify@rotate30@flipy@flipy
 final = cv2.warpPerspective(img1,final,(newWidth,newHeight))
 
 show(final)
