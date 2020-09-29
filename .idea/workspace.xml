@@ -20,8 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="af15a069-83d8-40c0-a389-d60cd14ca184" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/A03/morecv.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A04/corners.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A04/morecode.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A03/blurcv.py" beforeDir="false" afterPath="$PROJECT_DIR$/A03/blurcv.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +47,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/A03/morecv.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/A03/blurcv.py" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager">
@@ -70,7 +72,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="morecv" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+    <configuration name="blurcv" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Graphics-Programming" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -82,7 +84,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/A03/morecv.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/A03/blurcv.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -116,30 +118,30 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="418" y="84" width="1084" height="996" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600443888488">
+    <state x="431" y="40" width="1084" height="1040" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601342922630">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="418" y="84" width="1084" height="996" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1600443888488" />
-    <state x="743" y="317" width="424" height="478" key="FileChooserDialogImpl" timestamp="1600443887439">
+    <state x="431" y="40" width="1084" height="1040" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1601342922630" />
+    <state x="743" y="317" width="424" height="478" key="FileChooserDialogImpl" timestamp="1601342921383">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="743" y="317" width="424" height="478" key="FileChooserDialogImpl/0.40.1920.1040@0.40.1920.1040" timestamp="1600443887439" />
-    <state width="1899" height="277" key="GridCell.Tab.0.bottom" timestamp="1600444598513">
+    <state x="743" y="317" width="424" height="478" key="FileChooserDialogImpl/0.40.1920.1040@0.40.1920.1040" timestamp="1601342921383" />
+    <state width="1899" height="277" key="GridCell.Tab.0.bottom" timestamp="1601342906256">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state width="1899" height="277" key="GridCell.Tab.0.bottom/0.40.1920.1040@0.40.1920.1040" timestamp="1600444598513" />
-    <state width="1899" height="277" key="GridCell.Tab.0.center" timestamp="1600444598512">
+    <state width="1899" height="277" key="GridCell.Tab.0.bottom/0.40.1920.1040@0.40.1920.1040" timestamp="1601342906256" />
+    <state width="1899" height="277" key="GridCell.Tab.0.center" timestamp="1601342906256">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state width="1899" height="277" key="GridCell.Tab.0.center/0.40.1920.1040@0.40.1920.1040" timestamp="1600444598512" />
-    <state width="1899" height="277" key="GridCell.Tab.0.left" timestamp="1600444598512">
+    <state width="1899" height="277" key="GridCell.Tab.0.center/0.40.1920.1040@0.40.1920.1040" timestamp="1601342906256" />
+    <state width="1899" height="277" key="GridCell.Tab.0.left" timestamp="1601342906256">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state width="1899" height="277" key="GridCell.Tab.0.left/0.40.1920.1040@0.40.1920.1040" timestamp="1600444598512" />
-    <state width="1899" height="277" key="GridCell.Tab.0.right" timestamp="1600444598512">
+    <state width="1899" height="277" key="GridCell.Tab.0.left/0.40.1920.1040@0.40.1920.1040" timestamp="1601342906256" />
+    <state width="1899" height="277" key="GridCell.Tab.0.right" timestamp="1601342906256">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state width="1899" height="277" key="GridCell.Tab.0.right/0.40.1920.1040@0.40.1920.1040" timestamp="1600444598512" />
+    <state width="1899" height="277" key="GridCell.Tab.0.right/0.40.1920.1040@0.40.1920.1040" timestamp="1601342906256" />
     <state width="1899" height="342" key="GridCell.Tab.1.bottom" timestamp="1600222883030">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
