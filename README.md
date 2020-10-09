@@ -1,2 +1,2 @@
 # Graphics-Programming
-Repo for Graphics Programming Work at ASMSA
+Repository for Graphics Programming Work at ASMSA
