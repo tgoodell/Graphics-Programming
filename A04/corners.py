@@ -17,7 +17,7 @@ def normalize(img):
     out*=255.9999
     return np.uint8(out)
 
-img=cv2.imread("house.jpeg",0);
+img=cv2.imread("squirrel.jpeg",0);
 # img=cv2.resize(img,(0,0),fx=.5,fy=.5)
 
 '''
@@ -52,6 +52,7 @@ edges=cv2.Canny(img,100,200)
 
 
 show(edges)
+cv2.imwrite("super-squirrel.png",edges)
 show(angle)
 show(Ix)
 show(Iy)

@@ -17,8 +17,8 @@ def normalize(img):
     out*=255.9999
     return np.uint8(out)
 
-img1=cv2.imread("house.jpeg",0)
-img2=cv2.imread("house.jpeg",0)
+img1=cv2.imread("scenic3.jpg",0)
+img2=cv2.imread("scenic4.jpg",0)
 
 orb=cv2.ORB_create()
 
@@ -37,9 +37,25 @@ matches=bf.knnMatch(des1,des2,k=2)
 
 good=[]
 for m,n in matches:
-    if m.distance < 0.7*n.distance:
+    if m.distance < 0.9*n.distance:
         good.append(m)
 
-# img3=cv2.drawMatches(img1,kp1,img2,kp2,good,None)
+img3=cv2.drawMatches(img1,kp1,img2,kp2,good,None)
 # cv2.imwrite("matches.png",img3)
-# show(img3)
+show(img3)
+
+points1=[]
+points2=[]
+
+for m in good:
+    pt1=kp1[m.queryIdx].pt
+    pt2 = kp2[m.queryIdx].pt
+    points1.append(pt1)
+    points2.append(pt2)
+
+H,_=cv2.findHomography(np.float32(points2),np.float32(points1),np.float32(points2),np.float32(points1),cv2.RANSAC,5.0)
+
+# Get Gaussian Kernel
+# cv2.getGaussianKernel(size,sigma)
+# sigma=-1 for default
+# k@k.T multiply 1x9 by 9x1, transpose
