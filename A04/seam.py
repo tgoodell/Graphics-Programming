@@ -34,97 +34,54 @@ def drawSeam(img,seam,color=0):
         copyImg[y,x]=color
     return copyImg
 
-img1=cv2.imread("input/lakeOne.jpg")
-img2=cv2.imread("input/lakeTwo.jpg")
-#img1=cv2.resize(img1,(0,0),fx=.4,fy=.4)
-#img2=cv2.resize(img2,(0,0),fx=.4,fy=.4)
+def getEdgeImage(img,margin=10):
+    kernel = np.float64([[-1, 0, 1]])
+    Ix = cv2.filter2D(img, -1, cv2.CV_64F, kernel)
+    Iy = cv2.filter2D(img, -1, cv2.CV_64F, kernel)
+    I = np.hypot(Ix, Iy)
+    m=I.max()
+    I[:,:margin]=m
+    I[:,-margin:]=m
+    return I
 
-orb = cv2.ORB_create()
+def getEnergyMap(img):
+    edges=getEdgeImage(img)
+    kernel=np.ones(3,np.float64)
+    for i in range(1,len(edges)):
+        minAbove=cv2.erode(edges[i-1],kernel).T[0]
+        edges[i] += minAbove[:, 0]
+    return edges
 
-kp1 = orb.detect(img1)
-kp2 = orb.detect(img2)
+def getSeam(img):
+    energyMap=getEnergyMap(img)
+    y=len(energyMap)-1
+    x = np.argmin(energyMap[y])
+    seam = [(x, y)]
+    while len(seam) < len(energyMap):
+        x, y = seam[-1]
+        newY = y - 1
+        newX = x + np.argmin(energyMap[newY, x - 1:x + 2]) - 1
+        seam.append((newX, newY))
 
-kp1,des1 = orb.compute(img1,kp1)
-kp2,des2 = orb.compute(img2,kp2)
-# ~ for d in des1:
-    # ~ print(d)
+    return seam
 
-bf = cv2.BFMatcher()
-
-matches = bf.knnMatch(des1,des2,k=2)
-
-#BF: BRUTE FORCE
-#KNN: k-Nearest Neighbors
-
-
-# ~ good=[m[0] for m in matches]
-good = []
-for m,n in matches:
-    if m.distance < 0.9*n.distance:
-        print(des1[m.queryIdx])
-        print(des2[m.trainIdx])
-        print()
-        good.append(m)
-
-img3 = cv2.drawMatches(img1,kp1,img2,kp2,good,None)
-cv2.imwrite("matches.png",img3)
-show(img3)
-
-points1=[]
-points2=[]
-for m in good:
-    pt1=kp1[m.queryIdx].pt
-    pt2=kp2[m.trainIdx].pt
-    points1.append(pt1)
-    points2.append(pt2)
-
-H,_=cv2.findHomography(np.float32(points2), np.float32(points1), cv2.RANSAC, 5.0)
-T=np.array([[1,0,0],[0,1,100],[0,0,1]])
+def removeSeam(img):
+    seam=getSeam(img)
+    output=img[:,1:]
+    for (x,y),row in zip(seam,img):
+        output[y,:x]=img[y:x]
+        output[y,x:]=img[y,x+1:]
+    return output
 
 img1=cv2.imread("input/lakeOne.jpg")
 img2=cv2.imread("input/lakeTwo.jpg")
-h,w=img1.shape[:2]
 
-target_size=(2*w,2*h)
-tout1=T
-tout2=T@H
-# out1=cv2.warpPerspective(img1,T,target_size)
-#out1=cv2.warpPerspective(img1,T,dsize=target_size)
-out2=cv2.warpPerspective(img2,tout2,dsize=target_size)
-out1=out2
-mask2=cv2.warpPerspective(img2*0+255,T@H,dsize=target_size)
-show(mask2)
 
-mask2=cv2.erode(mask2,np.ones((101,101),np.uint8))
-cv2.GaussianBlur(mask2,(101,101),-1)/255.0
-show(mask2)
-#out1[where out1 isnt]=out2[where out1 isnt]
+show(getEnergyMap(img1))
+show(getEdgeImage(img1))
+img3=removeSeam(img1)
 
-comp=out2*mask2*(1-mask2)
-show(comp)
-cv2.imwrite("pano.png",comp)
 
-diff=out1*1.0-out2
-# diff[(out1>0)^(out2>0)]=255
-diff**=2
-show(diff)
-diff=diff*.5
-
-cost=diff*1.0
-kernel=np.ones(3,np.float64)
-for i in range(1,len(cost)):
-    minAbove=cv2.erode(cost[i-1],kernel).T[0]
-    cost[i]+=minAbove[:,0]
-
-show(cost)
-y=len(cost)-1
-x=np.argmin(cost[y])
-seam=[(x,y)]
-while len(seam)<len(cost):
-    x,y=seam[-1]
-    newY=y-1
-    newX=x+np.argmin(cost[newY,x-1:x+2])-1
-    seam.append((newX,newY))
 
 diff=normalize(diff)*0
 for x,y in seam:
