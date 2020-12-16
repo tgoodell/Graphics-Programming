@@ -37,29 +37,31 @@
 
 
 # Caesar Cipher / Rot13
-# ~ msg="qxf jan hxd mxrwap"
-# ~ alphabet="abcdefghijklmnopqrstuvwxyz"
-# ~ shift=5
+msg="TGG KUSJWV QGM"
+alphabet="abcdefghijklmnopqrstuvwxyz"
+shift=5
 
-# ~ def rotn(msg,shift):
-	# ~ output=""
-	# ~ for letter in msg:
-		# ~ if letter in alphabet:
-			# ~ index=alphabet.find(letter)
-			# ~ index+=shift
-			# ~ index%=26
-			# ~ output+=alphabet[index]
-		# ~ else:
-			# ~ output+=letter
-	# ~ return output
+def rotn(msg,shift):
+	output=""
+	for letter in msg:
+		if letter in alphabet:
+			index=alphabet.find(letter)
+			index+=shift
+			index%=26
+			output+=alphabet[index]
+		else:
+			output+=letter
+	return output
+	
+print(rotn(msg,1))
 
 # ~ for i in range(26):
-	# ~ print(str(i) + rotn(msg,i))
+	# ~ print(str(i) + ": " + rotn(msg,i))
 	
 	
 # Xor	
-msg=[0x21,0x30,0x36,0x2c,0x31,0x33,0x37,0x3F]
-key=b"SQUIRREL"
+#msg=[0x21,0x30,0x36,0x2c,0x31,0x33,0x37,0x3F]
+#key=b"SQUIRREL"
 
-for num, letter in zip(msg,key):
-	print(num ^ letter)
+#for num, letter in zip(msg,key):
+#	print(num ^ letter)

@@ -114,7 +114,7 @@ cost=diff*1.0
 kernel=np.ones(3,np.float64)
 for i in range(1,len(cost)):
     minAbove=cv2.erode(cost[i-1],kernel).T[0]
-    cost[i]+=minAbove[:,0]
+    cost[i]+=minAbove[0]
 
 show(cost)
 y=len(cost)-1

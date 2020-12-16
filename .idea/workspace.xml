@@ -20,12 +20,170 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="af15a069-83d8-40c0-a389-d60cd14ca184" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/A04/pano.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/A04/seam.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A01/PXL_20201202_212501647.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A01/grayscale.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A01/output/pic_2_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A01/output/pic_2_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A01/output/pic_2_2_0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A01/output/pic_2_2_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A01/output/pic_2_2_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A01/output/pic_2_2_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A01/output/pic_2_2_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A01/output/pic_2_2_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A01/output/pic_2_2_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A01/output/pic_2_2_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A01/output/pic_2_2_8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A01/output/pic_2_3_0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A01/output/pic_2_3_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A01/output/pic_2_3_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A01/output/pic_2_3_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A01/output/pic_2_3_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A01/output/pic_2_3_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A01/output/pic_2_3_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A01/output/pic_2_3_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A01/output/pic_2_3_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A01/output/pic_2_3_8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A01/output/pic_2_3_9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A01/output/pic_2_4_0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A01/output/pic_2_4_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A01/output/pic_2_4_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A01/output/pic_2_4_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A01/output/pic_2_4_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A01/output/pic_2_4_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A01/output/pic_2_4_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A01/output/pic_2_4_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A01/output/pic_2_4_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A01/output/pic_2_4_8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A01/output/pic_2_4_9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A01/output/pic_2_5_0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A01/output/pic_2_5_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A01/output/pic_2_5_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A03/flag-leaf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A03/leaf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A03/original.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A03/steg01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A03/stegAgain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A03/stegout.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A04/Assignment/Program.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A04/Assignment/gp_04_goodell.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A04/Assignment/input/image1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A04/Assignment/input/image2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A04/Assignment/input/image3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A04/Assignment/output/diff.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A04/Assignment/output/matches.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A04/Assignment/output/out.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A04/Assignment/output/out1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A04/Assignment/output/out2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A04/Assignment/output/pano1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A04/Assignment/output/pano2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A04/Assignment/output/panoTotal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A04/Assignment/presentation.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A04/Assignment/presentation.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A05/gp_05_goodell.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A05/input/.comments/clouds.jpg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A05/input/clouds.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A05/input/image1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A05/output/320x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A05/output/320x320.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A05/output/640x480.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A05/output/640x640.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A05/output/energyMap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A05/output/highlightedSeam.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A05/output/horizontalHighlightedSeam.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A05/output/horizontalSeams40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A05/output/removedSeam.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A05/output/seams40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A05/presentation.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A05/presentation.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A05/program.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A06/Program.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A06/gp_06_goodell.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A06/haarcascade_eye.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A06/haarcascade_frontalface_default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A06/halloween.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A06/leaf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A06/output/out.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A06/presentation.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A06/presentation.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A06/pumpkin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A07/Program.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A07/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A07/gp_07_goodell.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A07/input/blanket.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A07/input/coin.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A07/input/flag1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A07/input/flago.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A07/input/haiku_proof.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A07/input/ornament.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A07/output/blanketOut.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A07/output/blanketVotes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A07/output/coinOut.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A07/output/coinVotes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A07/output/fflagOut.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A07/output/fflagVotes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A07/output/flyFlagOut.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A07/output/flyFlagVotes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A07/output/ornamentOut.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A07/output/ornamentVotes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A07/patch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A08/ActualAssignment/Program.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A08/ActualAssignment/gp_08_goodell.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A08/ActualAssignment/haiku.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A08/ActualAssignment/mission.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A08/ActualAssignment/presentation.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A08/ActualAssignment/presentation.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A08/ActualAssignment/quadcopter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A08/ActualAssignment/sledding.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A08/Assignment/OpenSward.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A08/Assignment/PROGRAM.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A08/Assignment/TEMP.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A08/Assignment/blackwhite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A08/Assignment/bob.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A08/Assignment/canada.tzg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A08/Assignment/example.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A08/Assignment/haiku.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A08/Assignment/out2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A08/Assignment/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A08/Assignment/squirrel.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A08/Assignment/squirrel.tzg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A08/Assignment/test.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A08/Assignment/test.sdz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A08/Assignment/test.swd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A08/Assignment/test2.sdz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A08/Assignment/upgrade.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A08/Assignment/xkcd-test.tzg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A08/Assignment/xkcd.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A08/Assignment/xkcd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A08/Program.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A08/TEMP.tzg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A08/canada.tgf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A08/canada.tzg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A08/compression.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A08/filename.tzg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A08/flago.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A08/out2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A08/temp3.tzg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A08/test.swd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A08/upgrade.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/circlevoting.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic-programming-example.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jackolantern.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mastery2-eb.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mastery2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scancode/gp_09_goodell.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scancode/presentation.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scancode/presentation.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scancode/program.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task/flag" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task/task.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webcam/haarcascade_eye.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webcam/halloween.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webcam/webcam.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A03/blurcv.py" beforeDir="false" afterPath="$PROJECT_DIR$/A03/blurcv.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A03/super-canada.png" beforeDir="false" afterPath="$PROJECT_DIR$/A03/super-canada.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/A04/Program.py" beforeDir="false" afterPath="$PROJECT_DIR$/A04/Program.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A04/input/lake1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/A04/input/lake2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sewardjolt.py" beforeDir="false" afterPath="$PROJECT_DIR$/sewardjolt.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +211,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/A04/input/seam.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/scancode/program.py" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
@@ -84,16 +242,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="seam" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+    <configuration name="program" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Graphics-Programming" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/A04/input" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scancode" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/A04/seam.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scancode/program.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -128,59 +289,5 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="702" y="426" width="494" height="254" key="#Updates" timestamp="1602514459169">
-      <screen x="0" y="40" width="1920" height="1040" />
-    </state>
-    <state x="702" y="426" width="494" height="254" key="#Updates/0.40.1920.1040@0.40.1920.1040" timestamp="1602514459169" />
-    <state x="431" y="40" width="1084" height="1040" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602519298595">
-      <screen x="0" y="40" width="1920" height="1040" />
-    </state>
-    <state x="431" y="40" width="1084" height="1040" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1602519298595" />
-    <state x="743" y="317" width="424" height="478" key="FileChooserDialogImpl" timestamp="1602519297677">
-      <screen x="0" y="40" width="1920" height="1040" />
-    </state>
-    <state x="743" y="317" width="424" height="478" key="FileChooserDialogImpl/0.40.1920.1040@0.40.1920.1040" timestamp="1602519297677" />
-    <state width="1899" height="277" key="GridCell.Tab.0.bottom" timestamp="1602687865179">
-      <screen x="0" y="40" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="277" key="GridCell.Tab.0.bottom/0.40.1920.1040@0.40.1920.1040" timestamp="1602687865179" />
-    <state width="1899" height="277" key="GridCell.Tab.0.center" timestamp="1602687865179">
-      <screen x="0" y="40" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="277" key="GridCell.Tab.0.center/0.40.1920.1040@0.40.1920.1040" timestamp="1602687865179" />
-    <state width="1899" height="277" key="GridCell.Tab.0.left" timestamp="1602687865179">
-      <screen x="0" y="40" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="277" key="GridCell.Tab.0.left/0.40.1920.1040@0.40.1920.1040" timestamp="1602687865179" />
-    <state width="1899" height="277" key="GridCell.Tab.0.right" timestamp="1602687865179">
-      <screen x="0" y="40" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="277" key="GridCell.Tab.0.right/0.40.1920.1040@0.40.1920.1040" timestamp="1602687865179" />
-    <state width="1899" height="342" key="GridCell.Tab.1.bottom" timestamp="1600222883030">
-      <screen x="0" y="40" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="342" key="GridCell.Tab.1.bottom/0.40.1920.1040@0.40.1920.1040" timestamp="1600222883030" />
-    <state width="1899" height="342" key="GridCell.Tab.1.center" timestamp="1600222883029">
-      <screen x="0" y="40" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="342" key="GridCell.Tab.1.center/0.40.1920.1040@0.40.1920.1040" timestamp="1600222883029" />
-    <state width="1899" height="342" key="GridCell.Tab.1.left" timestamp="1600222883029">
-      <screen x="0" y="40" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="342" key="GridCell.Tab.1.left/0.40.1920.1040@0.40.1920.1040" timestamp="1600222883029" />
-    <state width="1899" height="342" key="GridCell.Tab.1.right" timestamp="1600222883029">
-      <screen x="0" y="40" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="342" key="GridCell.Tab.1.right/0.40.1920.1040@0.40.1920.1040" timestamp="1600222883029" />
-    <state x="464" y="194" key="SettingsEditor" timestamp="1599663746389">
-      <screen x="0" y="40" width="1920" height="1040" />
-    </state>
-    <state x="464" y="194" key="SettingsEditor/0.40.1920.1040@0.40.1920.1040" timestamp="1599663746389" />
-    <state width="498" height="445" key="SwitcherDM" timestamp="1602256666116">
-      <screen x="0" y="40" width="1920" height="1040" />
-    </state>
-    <state width="498" height="445" key="SwitcherDM/0.40.1920.1040@0.40.1920.1040" timestamp="1602256666116" />
   </component>
 </project>
