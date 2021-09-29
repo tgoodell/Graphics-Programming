@@ -240,9 +240,10 @@ def readCode(img):
 
     return message
 
-code="Hey Seward!"
+code="Tristan"
 img=saveCode(code)
 
+show(drawTemplate())
 show(img)
 
 print(readCode(img))

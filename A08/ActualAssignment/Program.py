@@ -103,13 +103,13 @@ def read(filename):
     img = np.uint8(np.reshape(m[:w * h], (w, h)) == "1") * 255
     return img
 
-img=cv2.imread("haiku.png")
+img=cv2.imread("flag-file.png")
 img=blackWhite(img,127)
 cv2.imwrite("blackwhite.png",img)
 
-save(img,"canada")
+save(img,"flag")
 
-cv2.imwrite("out2.png",read("canada"))
+cv2.imwrite("flag-out.png",read("flag"))
 
 
 
